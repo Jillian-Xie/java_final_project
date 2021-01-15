@@ -14,7 +14,7 @@ import java.util.Objects;
 public class GameOver {
     public GameOver(Stage primaryStage, boolean WinnerName) throws IOException {
         if(WinnerName && Globle.chosen_id < 8){
-            Parent root = FXMLLoader.load(getClass().getResource("../../HuluWin.fxml"));
+            Parent root = FXMLLoader.load(getClass().getResource("HuluWin.fxml"));
             Scene scene = new Scene(root, 960, 720);
             primaryStage.setTitle("游戏结束");
             primaryStage.setScene(scene);
@@ -23,7 +23,7 @@ public class GameOver {
             primaryStage.show();
         }
         else if(WinnerName && Globle.chosen_id > 7){
-            Parent root = FXMLLoader.load(getClass().getResource("../../MonsterLose.fxml"));
+            Parent root = FXMLLoader.load(getClass().getResource("MonsterLose.fxml"));
             Scene scene = new Scene(root, 960, 720);
             primaryStage.setTitle("游戏结束");
             primaryStage.setScene(scene);
@@ -32,7 +32,7 @@ public class GameOver {
             primaryStage.show();
         }
         else if((!WinnerName) && Globle.chosen_id < 8){
-            Parent root = FXMLLoader.load(getClass().getResource("../../HuluLose.fxml"));
+            Parent root = FXMLLoader.load(getClass().getResource("HuluLose.fxml"));
             Scene scene = new Scene(root, 960, 720);
             primaryStage.setTitle("游戏结束");
             primaryStage.setScene(scene);
@@ -41,7 +41,7 @@ public class GameOver {
             primaryStage.show();
         }
         else if((!WinnerName) && Globle.chosen_id > 7){
-            Parent root = FXMLLoader.load(getClass().getResource("../../MonsterWin.fxml"));
+            Parent root = FXMLLoader.load(getClass().getResource("MonsterWin.fxml"));
             Scene scene = new Scene(root, 960, 720);
             primaryStage.setTitle("游戏结束");
             primaryStage.setScene(scene);
