@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact name="Final_Proj:jar">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="root">
+      <element id="archive" name="Final_Proj.jar">
+        <element id="module-output" name="Final_Proj" />
+        <element id="module-test-output" name="Final_Proj" />
+      </element>
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-controls:win:15.0.1" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-base:win:15.0.1" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-graphics:15.0.1" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-controls:15.0.1" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-base:15.0.1" />
+      <element id="library" level="project" name="Maven: org.hamcrest:hamcrest-core:1.3" />
+      <element id="library" level="project" name="Maven: junit:junit:4.12" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-graphics:win:15.0.1" />
+    </root>
+  </artifact>
+</component>
